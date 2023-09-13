@@ -1,0 +1,180 @@
+.header {
+    background-color: #8871d6;
+    display: flex;
+    color: white;
+    height: 30rem;
+    justify-content: center;
+    background-image: url('https://stimg.cardekho.com/images/uploadimages/1694424285037/2023-Tata-Nexon.ev_CD-MasterHead-Desktop_1686x548px.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cars{
+    padding: 3rem 0;
+    margin: 5rem;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+    flex-wrap: wrap;
+}
+.footer-item{
+    margin-top: 3rem;
+    
+}
+.footer-heading-items{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+#footer-heading{
+    font-weight: bold;
+    padding: .4rem;
+}
+.footer-heading-item{
+    padding: .4rem;
+}
+.footer-item2{
+    display: flex;
+    justify-content: center;
+}
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.headerlist {
+    display: flex;
+    gap: 40px
+}
+
+.headerlistitems {
+    display: flex;
+    gap: 5px;
+    background: #0f284a99;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 9px 0px black;
+}
+
+.headerlistitems:hover {
+    background-color: white;
+    color: #8871d6;
+}
+
+
+.headertitle {
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: left;
+
+}
+
+.headerDesc {
+    width: 100%;
+    font-style: italic;
+    padding: 20;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.signin {
+    padding: 5px 10px;
+    color: #8871d6;
+    border-radius: 5px;
+    border-color: #3E78B2;
+    font-weight: 700;
+    background-color: white;
+}
+
+.headerSearch {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #8871d6;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px 1px black;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.headersearchinput {
+    width: 210px;
+    padding: 5px 10px;
+    color: #004ba8;
+    border-radius: 5px;
+    border-color: #3E78B2;
+    font-weight: 500;
+    background-color: white;
+}
+
+.headerSearchItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerBtn {
+    margin: 5px 5px;
+    padding: 5px 10px;
+    color: #004ba8;
+    border-radius: 5px;
+    border-color: #3E78B2;
+    font-weight: 400;
+    background-color: white;
+}
+
+.date {
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+}
+
+.options {
+    position: absolute;
+    bottom: 225px;
+    background-color: white;
+    color: #004ba8;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid;
+    z-index: 2;
+}
+
+.optionsitem {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 200px;
+    align-items: center;
+}
+
+.optioncounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.optioncounterbutton {
+    color: black;
+    cursor: pointer;
+}
+
+.optioncounterbutton:disabled {
+    cursor: not-allowed;
+}
